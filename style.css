@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Palanquin', sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #000;
+	background-image: url('https://images.pexels.com/photos/973590/pexels-photo-973590.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+}
+
+.container {
+	background: rgba(0,0,0,0.5);
+	padding: 15px;
+}
+
+h1 {
+	color: white;
+}
+
+.time {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+p {
+	margin: 10px;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px){
+	h1 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 18px;
+	}
+}
+
+.label {
+	font-size: 14px;
+}
